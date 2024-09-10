@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0;
     padding: 0;
 }
@@ -16,4 +16,7 @@ nav{
 }
 .alt{
     background-color: rgb(149,28,227);
+}
+.mobile{
+    font-size: 400%;
 }
