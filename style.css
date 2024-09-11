@@ -14,9 +14,4 @@ nav{
 .bg-gradient-primary-to-secondary {
     background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
 }
-.alt{
-    background-color: rgb(149,28,227);
-}
-.mobile{
-    font-size: 400%;
-}
+
