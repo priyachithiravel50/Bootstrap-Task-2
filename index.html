@@ -1,255 +1,246 @@
-<!DOCTYPE html>
+/<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap Task-2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
+    <title>Bootstrap Task-2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:wght@500&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:wght@500&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-  </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    
+    
+</head>
 <body>
-    <nav class="navbar navbar-expand-lg text-lowercase text-dark fixed-top shadow-sm" id="mynav">
-     <div class="container mt-2 mb-2">
-        <a class="navbar-brand text-capitalize fw-bold text-dark " href= "index.html">Start bootstrap</a>
-      <button class="navbar-toggler border text-dark collapsed " data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="collapse" aria-expanded="false" type="button"> Menu
-        <i class="bx bx-menu pt-1" style="width: 25px; height: 30px;"></i>
+  <nav class="navbar navbar-expand-lg d-flex navbar-light fixed-top container-fluid position-fixed shadow-sm bg-white fixed-top " style="z-index: 1030;" id="#mainNav">
+    <div class="container justify-content-between">
+      <a class="navbar-brand fw-bolder text-dark fs-3 ps-lg-3" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler border text-dark collapsed " data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" type="button"> Menu
+        <i class="bx bx-menu pt-1 p-3" style="width: 30px; height: 30px;"></i>
       </button>
+      <div class="collapse navbar-collapse " id="navbar">
+        <ul class="navbar-nav ms-auto" >
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#features" >Features</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#download" >Download</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary rounded-pill mb-5 mb-lg-0 px-3" data-bs-target="#sendfeedback" data-bs-toggle="modal">
+          <i class="fa-solid fa-comment-dots"></i>
+          Send Feedback
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header class="head d-flex me-sm-0" >
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-5">
+          <div class="mb-5 mb-lg-0 text-center text-lg-start">
+            <h1 class="display-2  lh-1 mb-3 fw-bold" id="boot">Showcase your app beautifully.</h1>
+            <p class="lead text-muted mb-5 fw-normal" id="boot1">
+              Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
+            </p>
+            <div class="d-flex flex-column flex-lg-row">
+              <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                <img class="app-badge" src="images/goo.svg" alt="">
+              </a>
+              <a href="#">
+                <img class="app-badge" src="images/app-store-badge (1)2.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" id="phone5">
+          <div class="iphone-div">
+            <div class="cir position-absolute ">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+            <div class="circle bg-gradient-primary-to-secondary position-absolute translate-middle"></div>
+            <div class="x position-absolute">
+              <i class="fa-solid fa-xmark fs-3"></i>
+            </div>
+            <div class=" position-absolute">
+              <video class="iphone rounded" src="images/video.mp4" muted="muted" autoplay aria-busy="false" ></video>
+              <img class="img position-absolute " src="images/iphone-frame.png" alt="" height="500px" width="280px" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="sec name bg-gradient-primary-to-secondary text-center">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-md-8 col-xl-8">
+          <div class="h2  text-white mb-4" id="show3">
+            "An intuitive solution to a common problem that we all face, wrapped up in a single app!"
+          </div>
+          <img class="img-fluid " src="images/tnw-logo (1)t2.svg" alt="" style="height: 54px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" bg-white " id="features">
+    <div class="container px-5">
+      <div class="row gx-5">
+        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0 bg-white" id="imag">
+          <div class="container-fluid px-5">
+            <div class="row gx-5">  
+              <div class="col-md-6 mb-5">
+                <div class="tec text-center">
+                  <i class=' mobile bx bx-mobile-alt mb-3'></i>
+                  <h3 class="font-alt fw-bold">Device Mockups</h3>
+                  <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-5">
+                <div class="tec text-center">
+                  <i class="camera bx bx-camera mb-3"></i>
+                  <h3 class="font-alt fw-bold">Flexible Use</h3>
+                  <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-md-0">
+                <div class="tec text-center">
+                  <i class='gift bx bx-gift mb-3'></i>
+                  <h3 class="font-alt fw-bold">Free to Use</h3>
+                  <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tec text-center">
+                  <i class='check bx bx-badge-check mb-3'></i>
+                  <h3 class="font-alt fw-bold">Open Source</h3>
+                  <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="phones col-lg-4 order-lg-0" id="phone3">
+          <div class="iphone1-div ms-sm-5 me-md-5">
+            <div class="circl position-absolute">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+            <div class="circler position-absolute translate-middle bg-gradient-primary-to-secondary"></div>
+            <div class="xmark position-absolute">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="position-absolute iphoner">
+              <video class="iphone1 rounded" src="images/video.mp4" muted="muted" autoplay aria-busy="false" ></video>
+              <img class="img1 position-absolute " src="images/iphone-frame.png" alt="" height="523px" width="280px" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center justify-content-lg-between align-items-center">
+        <div class="col-12 col-lg-5">
+          <h2 class="display-4 lh-1 fw-bold mb-4" id="show3">Enter a new age of web design</h2>
+          <p class="lead fw-normal text-muted mb-5 mb-lg-0" id="launch3">This section is perfect for featuring some information about your application, 
+            why it was built, the problem it solves, or anything else! There's plenty of space for text here, 
+            so don't worry about writing too much.</p>
+        </div>
+        <div class="col-sm-8 col-md-6">
+          <div class="px-5 px-sm-0">
+            <img class="img-fluid rounded-circle" src="image/Boot-img.jpg" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="foot">
+    <div class="foot1">
+      <div class="container px-5">
+        <h2 class="display-1 lh-1 mb-4 text-white " id="show3">Stop waiting. <br>
+          Start building.</h2>
+        <a class="btn btn-outline-light rounded-pill " href="#">
+            Download for free
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gradient-primary-to-secondary" id="download">
+    <div class="container px-5" id="show3">
+      <h2 class="text-center font-alt mb-4 text-white">Get the app now!</h2>
+      <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+        <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+          <img class="app-badge" src="images/goo.svg" alt="">
+        </a>
+        <a href="#">
+          <img class="app-badge" src="images/app-store-badge (1)2.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-black text-center py-5 bg-dark">
+    <div class="container px-5">
+      <div class="text-white-50 text-muted small">
+        <div class="mb-2">© Your Website 2023. All Rights Reserved.</div>
+        <a class="btn2 text-muted" href="#">Privacy</a>
+        <span class="mx-1 text-muted">·</span>
+        <a class="btn2 text-muted" href="#">Terms</a>
+        <span class="mx-1 text-muted">·</span>
+        <a class="btn2 text-muted" href="#">FAQ</a>
+      </div>
       
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0 text-capitalize">
-                <li class="nav-item">
-                   <a class="nav-link me-lg-3 text-dark" href="#features">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3 text-dark" href="#download">Download</a>
-                </li>
-                <button class="btn btn-primary rounded-pill mb-5 mb-lg-0 px-3" data-bs-target="#sendfeedback" data-bs-toggle="modal">
-                    <i class="fa-regular fa-comment-dots" id="send"></i>
-                    Send Feedback
-                  </button>
-                </div>
-              </div>
-            </nav>
-            <section class=" bg-light">
-            <header class="header bg-light d-flex me-sm-0" >
-              <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                  <div class="col-lg-5">
-                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                      <h1 class="head fw-100" id="boot">Showcase your app beautifully.</h1>
-                      <p class="lead text-muted mb-5 fw-normal" id="boot1">
-                        Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
-                      </p>
-                     <div class="app d-flex flex-column flex-lg-row">
-                      <a class="me-lg-3 mb-4 mb-lg-0" href="#">
-                        <img class="app-badge" src="images/goo.svg" alt="" height="150px" width="150px" style="background-color: rgb(248,249,250);">
-                      </a>
-                      <a href="#">
-                        <img class="app-badge1 fs-2" src="images/app-store-badge (1)2.svg " alt="" height="150px" width="150px" style="background-color: rgb(248,249,250);">
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                
-                  <div class="h col-lg-7">
-                    <div class="mobile">
-                      <div class="cir position-absolute ">
-                        <i class="fa-solid fa-circle"></i>
-                      </div>
-                      <div class="circle bg-gradient-primary-to-secondary position-absolute translate-middle"></div>
-                      <div class="x position-absolute">
-                        <i class="fa-solid fa-xmark fs-4"></i>
-                      </div>
-                      <div class=" position-absolute">
-                        <video class="iphone rounded" src="images/bootstrap vd t-2.mp4" muted="muted" autoplay aria-busy="false"></video>
-                        <img class="img position-absolute " src="images/iPhone-Frame-PNG-Photo.png" alt="" height="570px" width="320px">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </header>
-            </section>
-            
-            <section class="name bg-gradient-primary-to-secondary text-center">
-              <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                  <div class="col-md-8 col-xl-8">
-                    <div class="fm fs-1 text-white mb-4" id="show3">
-                      "An intuitive solution to a common problem that we all face, wrapped up in a single app!"
-                    </div>
-                    <img class="img-fluid " src="images/tnw-logo (1)t2.svg" alt="" style="height: 54px;">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="features">
-              <div class="device container px-5">
-                <div class="row gx-5">
-                  <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0" id="image5">
-                    <div class="container-fluid px-5">
-                      <div class="row gx-5">  
-                        <div class="col-md-6 mb-5">
-                          <div class=" device text-center">
-                            <i class='mob bx bx-mobile-alt mb-3'></i>
-                            <h3 class="font-alt">Device Mockups</h3>
-                            <p class="tec text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 mb-5">
-                          <div class="device1 text-center">
-                            <i class="camera bx bx-camera mb-3"></i>
-                            <h3 class="font-alt">Flexible Use</h3>
-                            <p class="tec text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6 mb-5 mb-md-0">
-                          <div class="device2 text-center">
-                            <i class='gift bx bx-gift mb-3'></i>
-                            <h3 class="font-alt">Free to Use</h3>
-                            <p class="tec text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="device3 text-center">
-                            <i class='check bx bx-badge-check mb-3'></i>
-                            <h3 class="font-alt">Open Source</h3>
-                            <p class="tec text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> 
-                  <div class="col-lg-4 order-lg-0" id="phone3">
-                    <div class="mobile1 ms-sm-5 me-md-5">
-                      <div class="circles position-absolute">
-                        <i class="fa-solid fa-circle"></i>
-                      </div>
-                      <div class="circle1 bg-gradient-primary-to-secondary position-absolute translate-middle"></div>
-                      <div class="xmark position-absolute">
-                        <i class="fa-solid fa-xmark fs-4"></i>
-                      </div>
-                      <div class="position-absolute iphones">
-                        <video class="iphone1 rounded" src="images/bootstrap vd t-2.mp4" muted="muted" autoplay aria-busy="false" ></video>
-                        <img class="pop position-absolute " src="images/iPhone-Frame-PNG-Photo.png" alt=""height="560px" width="320px">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-                <div class="con bg-light">
-                <div class="container px-5">
-                  <div class="row gx-5 justify-content-center justify-content-lg-between align-items-center">
-                    <div class="col-12 col-lg-5">
-                      <h2 class="dis display-4 lh-1 fw-bold mb-4" id="boot">Enter a new age of web design</h2>
-                      <p class="lead fw-normal text-muted mb-5 mb-lg-0 fs-4.7" id="boot1">This section is perfect for featuring some information about your application, 
-                        why it was built, the problem it solves, or anything else! There's plenty of space for text here, 
-                        so don't worry about writing too much.</p>
-                    </div>
-                    <div class="col-sm-8 col-md-6">
-                      <div class="px-5 px-sm-0">
-                        <img class="img-fluid rounded-circle" src="image/Boot-img.jpg" alt="...">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-  
-                <section class="stop bg-secondary">
-                  <div class="stop-d">
-                    <div class="container px-5">
-                      <h2 class="display-1 lh-1 mb-4 text-white " id="show3">Stop waiting. <br>
-                        Start building.</h2>
-                      <a class="btn btn-outline-light rounded-pill mt-6 p-3" href="#">
-                          Download for free
-                      </a>
-                    </div>
-                  </div>
-                  </div>
-                </section>
-                <section class="bg-gradient-primary-to-secondary" id="download">
-                  <div class="container px-5" id="show3">
-                    <h2 class="text-center font-alt mb-4 text-white">Get the app now!</h2>
-                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
-                      <a class="me-lg-3 mb-4 mb-lg-0" href="#">
-                        <img class="app-badge" src="images/goo1.svg" alt="">
-                      </a>
-                      <a href="#">
-                        <img class="app-badge1 ms-3" src="images/app-store-badge (1)2.svg" alt="">
-                      </a>
-                    </div>
-                  </div>
-                </section>
-                <footer class="bg-black text-center py-5 bg-dark">
-                  <div class="container px-5">
-                    <div class="text-white-50 text-muted small">
-                      <div class="mb-2">© Your Website 2023. All Rights Reserved.</div>
-                      <a class="btn text-muted" href="#">Privacy</a>
-                      <span class="mx-1 text-muted">·</span>
-                      <a class="btn text-muted" href="#">Terms</a>
-                      <span class="mx-1 text-muted">·</span>
-                      <a class="btn text-muted" href="#">FAQ</a>
-                    </div>
-                  </div>
-                </footer>
-                <!--Modal head-->
-                <div class="modal" id="sendfeedback">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="text-white text-center">Send Feedback</h5>
-                        <button class="btn-close btn-close-white" data-bs-toggle="modal"></button>
-                      </div>
-                      <!--Modal body-->
-                      <div class="modal-body" id="launch3">
-                        <form action="">
-                          <div class="form-floating mb-3 mt-3">
-                            <input class="form-control" type="text">
-                            <label for="text">Full Name</label>
-                            <div class="invalid-feedback">A name is required</div>
-                          </div>
-                          <div class="form-floating mb-3 mt-3">
-                            <input class="form-control" type="email">
-                            <label for="email">Email address</label>
-                            <div class="invalid-feedback" >A email is required</div>
-                          </div>
-                          <div class="form-floating mb-3 mt-3">
-                            <input class="form-control" type="tel">
-                            <label for="text">Phone number</label>
-                            <div class="invalid-feedback" data-sb-feedback="">A phone number is required</div>
-                          </div>
-                          <div class="form-floating mb-3 mt-3">
-                            <textarea class="form-control" name="Message" id="" style="height: 160px;"></textarea>
-                            <label for="Message">Message</label>
-                            <div class="invalid-feedback" data-sb-feedback="">A message is required</div>
-                          </div>
-                          <!--Modal footer-->
-                          <div class="d-grid align-items-center">
-                            <button class="btn btn-primary rounded-pill text-center px-5 disabled">Submit</button>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-
-
-        
+    </div>
+  </footer>
+  <!--Modal header-->
+  <div class="modal" id="sendfeedback">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="text-white text-center">Send Feedback</h5>
+          <button class="btn-close btn-close-white" data-bs-toggle="modal"></button>
+        </div>
+  <!--Modal body-->
+        <div class="modal-body" id="launch3">
+          <form action="">
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control" type="text">
+              <label for="text">Full Name</label>
+              <div class="invalid-feedback">A name is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control" type="email">
+              <label for="email">Email address</label>
+              <div class="invalid-feedback" >A email is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control" type="tel">
+              <label for="text">Phone number</label>
+              <div class="invalid-feedback" data-sb-feedback="">A phone number is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <textarea class="form-control" name="Message" id="" style="height: 160px;"></textarea>
+              <label for="Message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="">A message is required</div>
+            </div>
+  <!--Modal footer-->
+            <div class="d-grid align-items-center">
+              <button class="btn btn-primary rounded-pill text-center px-5 disabled">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
