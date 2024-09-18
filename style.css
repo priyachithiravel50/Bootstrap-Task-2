@@ -9,11 +9,13 @@ body{
 .text-dark:hover{
   color: #2937f0 !important;
 }
+
 .nav-item:hover{
   color: #9f1ae2;
 }
 .navbar-toggler{
   cursor: pointer; 
+  margin-top: 2%;
   border-color: black;
 }
 .navbar-brand{
@@ -34,9 +36,7 @@ section{
 #imag{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#send2{
-  font-family: "Montserrat", sans-serif;
-}
+
 .display-2{
   font-size: 65px;
 }
@@ -64,7 +64,7 @@ section{
   align-items: center;
   background-size: cover;
 }
-.cir{
+.circles{
   color: #8D1FE4;
   right: 20%;
   bottom: 150px;
@@ -76,6 +76,9 @@ section{
   position: absolute;
   top: 150px;
   left: 20%;
+}
+.iphone{
+  height: 500px;
 }
 .img{
   left: -14.9%; 
@@ -119,7 +122,7 @@ section{
   top: 0px;
   color: #8D1FE4;
 }
-.circl{
+.circles1{
   color: #8D1FE4;
   top: 400px;
   left: -10%;  
@@ -161,26 +164,35 @@ section{
   background-color:  rgb(127,127,127);
   font-family: 'Times New Roman', Times, serif;
 }
-.btn{
-  padding: 15px;
-  width: 200px;
-}
+
 .app-badge{
   height: 48px;
 }
 .modal-header{
   background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
 }
+.btn2{
+  text-decoration: none;
+}
+.btn2:hover{
+  text-decoration: underline;
+}
 
 @media screen and (max-width:430px) {
 .circle{
   display: none;
+}
+.iphoner1{
+  margin-top: 10%;
 }
 #phone5{
   margin-bottom: 5%;
 }
 #phone3{
   margin-left:-18px ;
+}
+.display-4{
+  font-size: 20px;
 }
 .sec{
   margin-top: 25%;
@@ -189,13 +201,13 @@ section{
   width: 320px;
   margin: 0px;
 }
-.cir{
+.circles{
   display: none;
 }
 .xma{
  display: none;
 }
-.circl{
+.circles1{
   display: none;
 }
 .xmark{
@@ -207,8 +219,86 @@ section{
 }
 @media screen and (min-width:374px) and (max-width:426px) {
 #phone3{
-  margin-left: 19px;
+  margin-left: 18px;
 }
+.navbar{
+  padding: 20px;
+}
+.navbar-toggler{
+  margin-right: 10px;
+  margin-left: 9%;
+  padding: 8px;
+}
+.btn{
+
+width: 240px;
+padding: 15px;
+}
+.navbar-brand{
+  margin-left: 10%;
+}
+.display-2{
+  font-size: 55px;
+}
+.h2{
+  font-size: 39px;
+}
+.display-4{
+  font-size: 42px;
+}
+.text-muted{
+  font-size: 20px;
+}
+.iphoner{
+  left: 15%;
+}
+.iphoner1{
+  margin-right: 10%;
+}
+.display-2{
+  margin-right: -70px;
+}
+.display-4{
+  font-size: 39px;
+  margin-left: 12px;
+}
+.lead{
+  font-size: 25px;
+  margin-left: 12px;
+}
+.img-fluid{
+  margin-left: 10%;
+}
+.display-1{
+  font-size: 55px;
+  font-weight: bold;
+}
+.btn{
+  padding: 15px;
+  width: 230px;
+}
+.tex{
+  font-size: 30px;
+}
+.head{
+  margin-left: 3%;
+}
+.lead, .app-badge, .down, .foot, .all, .feat{
+  width: 120%;
+}
+.app1{
+  margin-right: 10%;
+}
+.mid{
+  margin-left: 13%;
+}
+.sec{
+  width: 120%;
+}
+.device{
+  width: 120%;
+}
+
 }
 @media screen and (min-width:427px) and (max-width:768px) {
 #phone3{
@@ -221,32 +311,82 @@ section{
 .sec{
   margin-top: 20%;
 }
+.xmark{
+  margin-left: 30%;
+}
 .circler{
   top: 250px;
-  left:30%;
+  left: 78%;
   background-color: #8D1FE4;
   height: 300px;
   width: 300px;
   border-radius: 50%;
 }
+.iphoner{
+  margin-left: 20%;
+}
 }
 @media (max-width: 320px) {
   .navbar-toggler{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-right: 80px;
-    margin-left: 8%;
+    margin-left: 9%;
+    padding: 8px;
   }
   .navbar-brand{
     margin-left: 10%;
   }
   .display-2{
     margin-right: -70px;
+    font-size: 55px;
+  }
+  .display-4{
+    font-size: 40px;
+    margin-left: 10%;
+  }
+  .img-fluid{
+    margin-left: 10%;
+  }
+ .lead{
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .display-1{
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .btn{
+    font-size: 22px;
+    width: 240px;
+    padding: 15px;
+  }
+  .tex{
+    font-size: 32px;
+  }
+  .all{
+    font-size: 22px;
   }
   .head{
     margin-left: 3%;
   }
-  .lead{
-    margin-left: 7%;
+  .lead, .app-badge, .down, .foot, .all, .feat{
+    width: 130%;
+  }  
+  .iphoner{
+    margin-left: 6%;
+  }
+  .app1{
+    margin-right: 20%;
+  }
+  .mid{
+    margin-left: 13%;
+  }
+  .sec{
+    width: 130%;
+    margin-top: 40%;
+  }
+  .device{
+    width: 130%;
   }
 }
 

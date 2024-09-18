@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Task-2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -12,19 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:wght@500&family=Montserrat:ital,wght@0,200;0,300;0,900;1,100;1,300&family=Mulish:wght@300;500&family=Newsreader:opsz,wght@6..72,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"rel="stylesheet"/>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    
     
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg d-flex navbar-light fixed-top container-fluid position-fixed shadow-sm bg-white fixed-top " style="z-index: 1030;" id="#mainNav">
+  <nav class="navbar navbar-expand-lg d-flex navbar-light fixed-top container-fluid position-fixed shadow-sm bg-white fixed-top ">
     <div class="container justify-content-between">
       <a class="navbar-brand fw-bolder text-dark fs-3 ps-lg-3" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler border text-dark collapsed " data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" type="button"> Menu
-        <i class="bx bx-menu pt-1 p-3" style="width: 30px; height: 30px;"></i>
+      <button class="navbar-toggler collapsed border text-dark " data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" type="button" aria-label="Toggle navigation"> 
+        Menu
+        <i class="bx bx-menu pt-1" style="width: 30px; height: 30px;"></i>
       </button>
       <div class="collapse navbar-collapse " id="navbar">
         <ul class="navbar-nav ms-auto" >
@@ -53,7 +51,7 @@
             </p>
             <div class="d-flex flex-column flex-lg-row">
               <a class="me-lg-3 mb-4 mb-lg-0" href="#">
-                <img class="app-badge" src="images/goo.svg" alt="">
+                <img class="app-badge" src="images/google.svg" alt="">
               </a>
               <a href="#">
                 <img class="app-badge" src="images/app-store-badge (1)2.svg" alt="">
@@ -61,16 +59,16 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7" id="phone5">
+        <div class="mid col-lg-7" id="phone5">
           <div class="iphone-div">
-            <div class="cir position-absolute ">
+            <div class="circles position-absolute ">
               <i class="fa-solid fa-circle"></i>
             </div>
             <div class="circle bg-gradient-primary-to-secondary position-absolute translate-middle"></div>
             <div class="x position-absolute">
               <i class="fa-solid fa-xmark fs-3"></i>
             </div>
-            <div class=" position-absolute">
+            <div class=" position-absolute iphoner1">
               <video class="iphone rounded" src="images/video.mp4" muted="muted" autoplay aria-busy="false" ></video>
               <img class="img position-absolute " src="images/iphone-frame.png" alt="" height="500px" width="280px" >
             </div>
@@ -91,7 +89,7 @@
       </div>
     </div>
   </section>
-  <section class=" bg-white " id="features">
+  <section class="feat bg-white " id="features">
     <div class="container px-5">
       <div class="row gx-5">
         <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0 bg-white" id="imag">
@@ -132,7 +130,7 @@
         </div> 
         <div class="phones col-lg-4 order-lg-0" id="phone3">
           <div class="iphone1-div ms-sm-5 me-md-5">
-            <div class="circl position-absolute">
+            <div class="circles1 position-absolute">
               <i class="fa-solid fa-circle"></i>
             </div>
             <div class="circler position-absolute translate-middle bg-gradient-primary-to-secondary"></div>
@@ -159,7 +157,7 @@
         </div>
         <div class="col-sm-8 col-md-6">
           <div class="px-5 px-sm-0">
-            <img class="img-fluid rounded-circle" src="image/Boot-img.jpg" alt="...">
+            <img class="img-fluid rounded-circle" src="image/bootstrap.jpg" alt="...">
           </div>
         </div>
       </div>
@@ -176,12 +174,12 @@
       </div>
     </div>
   </section>
-  <section class="bg-gradient-primary-to-secondary" id="download">
+  <section class="down bg-gradient-primary-to-secondary" id="download">
     <div class="container px-5" id="show3">
-      <h2 class="text-center font-alt mb-4 text-white">Get the app now!</h2>
-      <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+      <h2 class=" tex text-center font-alt mb-4 text-white">Get the app now!</h2>
+      <div class="app1 d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <a class="me-lg-3 mb-4 mb-lg-0" href="#">
-          <img class="app-badge" src="images/goo.svg" alt="">
+          <img class=" app-badge" src="images/google.svg" alt="">
         </a>
         <a href="#">
           <img class="app-badge" src="images/app-store-badge (1)2.svg" alt="">
@@ -189,7 +187,7 @@
       </div>
     </div>
   </section>
-  <footer class="bg-black text-center py-5 bg-dark">
+  <footer class="all bg-black text-center py-5 bg-dark">
     <div class="container px-5">
       <div class="text-white-50 text-muted small">
         <div class="mb-2">© Your Website 2023. All Rights Reserved.</div>
@@ -203,14 +201,15 @@
     </div>
   </footer>
   <!--Modal header-->
+  
   <div class="modal" id="sendfeedback">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="text-white text-center">Send Feedback</h5>
-          <button class="btn-close btn-close-white" data-bs-toggle="modal"></button>
+          <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-  <!--Modal body-->
+        <!-- Modal body -->
         <div class="modal-body" id="launch3">
           <form action="">
             <div class="form-floating mb-3 mt-3">
@@ -221,19 +220,19 @@
             <div class="form-floating mb-3 mt-3">
               <input class="form-control" type="email">
               <label for="email">Email address</label>
-              <div class="invalid-feedback" >A email is required</div>
+              <div class="invalid-feedback">An email is required</div>
             </div>
             <div class="form-floating mb-3 mt-3">
               <input class="form-control" type="tel">
               <label for="text">Phone number</label>
-              <div class="invalid-feedback" data-sb-feedback="">A phone number is required</div>
+              <div class="invalid-feedback">A phone number is required</div>
             </div>
             <div class="form-floating mb-3 mt-3">
               <textarea class="form-control" name="Message" id="" style="height: 160px;"></textarea>
               <label for="Message">Message</label>
-              <div class="invalid-feedback" data-sb-feedback="">A message is required</div>
+              <div class="invalid-feedback">A message is required</div>
             </div>
-  <!--Modal footer-->
+            <!-- Modal footer -->
             <div class="d-grid align-items-center">
               <button class="btn btn-primary rounded-pill text-center px-5 disabled">Submit</button>
             </div>
@@ -242,5 +241,6 @@
       </div>
     </div>
   </div>
+  
 </body>
 </html>
